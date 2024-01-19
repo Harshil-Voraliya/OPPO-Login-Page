@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10vh;
+    margin-right: 20%;
+}
+
+.header a {
+    color: grey;
+    text-decoration: none;
+}
+
+.header select {
+    color: grey;
+    border: 0px;
+}
+.text{
+    margin-bottom: 10px;
+    margin-top: -25px
+}
+.upper-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.upper-header img{
+    width: 8vw;
+    height: 15vh;
+}
+
+.box {
+    display: flex;
+    background-color: whitesmoke;
+    height: 70vh;
+    width: 40vw;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.sign-in {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.veri {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.veri a {
+    text-decoration: none;
+    color: grey;
+}
+.textbox{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+    height: 5vh;
+    margin: 4px;
+}
+
+.ph{
+    border-radius: 8px;
+    width: 20vw;
+    margin: 15px;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    padding-left: 4px;
+}
+.veri-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+.v-code{
+    border-radius: 8px;
+    width: 15vw;
+    margin: 15px;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    padding-left: 4px;
+}
+.veri-input button{
+    width: 5vw;
+    border-radius: 5px;
+    height: 4vh;
+    border: 0px;
+    color: white;
+    background-color: gray;
+}
+.s-btn button{
+    background-color: lightgreen;
+    width: 20.3vw;
+    height: 5vh;
+    border: 0px;
+    border-radius: 8px;
+    margin: -8px;
+}
+
+.privacy{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 15px;
+}
+.pn{
+    color:gray;
+    text-decoration: none;
+}
+.ca{
+    color: lightgreen;
+    text-decoration: none;
+}
+.other{
+    color: lightgray;
+    margin: 15px;
+}
+.google-img img{
+    height: 2.5vh;
+    width: 1.2vw;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
